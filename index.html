@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Aya</title>
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Aya Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <!-- Profile Avatar Image -->
+            <div class="hero-avatar">
+                <img src="images.jpg" alt="Aya">
+            </div>
+            <h3>Hi, I'm</h3>
+            <h1>Aya</h1>
+            <h2>Web Developer <span class="highlight">(Front-End Developer)</span></h2>
+            <p>I am passionate about building modern, responsive, and user-friendly websites using HTML, CSS, Bootstrap, and JavaScript.</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="card bg-dark-card">
+            <p>I am a passionate web developer who enjoys learning new technologies and creating useful digital experiences. My goal is to build clean, responsive, and easy-to-use websites, turning creative designs into functional digital realities.</p>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="container">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-subtitle">Technologies I use to build websites</p>
+        <div class="skills-grid">
+            <div class="skill-card html">HTML5 <span class="tag">Structure</span></div>
+            <div class="skill-card css">CSS3 <span class="tag">Styling</span></div>
+            <div class="skill-card bootstrap">Bootstrap <span class="tag">Responsive</span></div>
+            <div class="skill-card js">JavaScript <span class="tag">Interactive</span></div>
+            <div class="skill-card git">Git & GitHub <span class="tag">Version Control</span></div>
+            <div class="skill-card vscode">VS Code <span class="tag">Editor</span></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Some projects I have worked on</p>
+        <div class="projects-grid">
+            <div class="project-card border-blue">
+                <h3>Student System</h3>
+                <p>A simple system for managing student records, adding details, and updating database profiles efficiently.</p>
+                <span class="badge management">Management</span>
+            </div>
+            <div class="project-card border-dark">
+                <h3>Personal Website</h3>
+                <p>A modern portfolio website designed to introduce skills, experience, and projects to the world.</p>
+                <span class="badge portfolio">Portfolio</span>
+            </div>
+            <div class="project-card border-green">
+                <h3>Online Store</h3>
+                <p>A clean e-commerce landing page with interactive product cards and responsive layouts.</p>
+                <span class="badge ecommerce">E-Commerce</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section (The Elegant White Box) -->
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-box">
+            <h3>Have a project in mind? Let's talk.</h3>
+            
+            <form class="contact-form" onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Email</label>
+                    <input type="email" placeholder="name@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea rows="5" placeholder="Write your message..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            
+            <div class="email-footer-link">
+                <p>Or email me directly at: <a href="mailto:ayaas.design2026@gmail.com">ayaas.design2026@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>All Rights Reserved © 2026 | Made with passion by Aya</p>
+    </footer>
+
+</body>
+</html>
+
+
+         
